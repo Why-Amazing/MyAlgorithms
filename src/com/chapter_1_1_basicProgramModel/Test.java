@@ -1,4 +1,4 @@
-package com.chapter_01;
+package com.chapter_1_1_basicProgramModel;
 
 import edu.princeton.cs.algs4.StdRandom;
 
