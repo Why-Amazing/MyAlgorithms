@@ -35,6 +35,21 @@ public class Ex_15_to_21_recursive {
 			System.out.print(newArr[i] + " ");
 		}
 	}
+
+	@Test
+	public void Ex_15_github(){
+		int[] arr = {2,1,4,3,2,3,1,1,6,8};
+		int M = 10;
+		int[] newArr = new int[M];
+
+		for (int i = 0; i < arr.length; i++){
+			if(arr[i] < M)
+				newArr[arr[i]]++;
+		}
+
+		for (int i = 0; i < newArr.length; i++ )
+			System.out.println(newArr[i]);
+	}
 	
 	
 }
